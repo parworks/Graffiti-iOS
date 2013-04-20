@@ -1,0 +1,6 @@
+[submodule "Graffiti/Submodules/GPUImage"]
+	path = Graffiti/Submodules/GPUImage
+	url = https://github.com/BradLarson/GPUImage.git
+[submodule "Graffiti/Submodules/PARWorks-iOS"]
+	path = Graffiti/Submodules/PARWorks-iOS
+	url = git@github.com:parworks/PARWorks-iOS.git
