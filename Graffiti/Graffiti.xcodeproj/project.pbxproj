@@ -30,6 +30,7 @@
 		A000672D16290313007FADB2 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A000672516290313007FADB2 /* CoreLocation.framework */; };
 		A000672E16290313007FADB2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A000672616290313007FADB2 /* QuartzCore.framework */; };
 		A0035A83162B371400186D26 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0035A82162B371400186D26 /* AVFoundation.framework */; };
+		A057A686172479CF00662670 /* ARCore.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A057A685172479CF00662670 /* ARCore.bundle */; };
 		A085CB4616E6F68D007EF7E0 /* UIFont+ThemeAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = A085CB4516E6F68D007EF7E0 /* UIFont+ThemeAdditions.m */; };
 		A085CD5816E6FB28007EF7E0 /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A085CD5716E6FB28007EF7E0 /* CoreMedia.framework */; };
 		A085CD5A16E6FB2D007EF7E0 /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A085CD5916E6FB2D007EF7E0 /* CoreVideo.framework */; };
@@ -114,6 +115,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		A057A684172479CF00662670 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A09A92FF172335A8000D9AF7 /* ARCore.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = A057A60117244FAB00662670;
+			remoteInfo = ARCoreResources;
+		};
 		A09A92D417232A59000D9AF7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A09A92CE17232A59000D9AF7 /* GPUImage.xcodeproj */;
@@ -394,6 +402,7 @@
 			isa = PBXGroup;
 			children = (
 				A09A9304172335A8000D9AF7 /* libARCore.a */,
+				A057A685172479CF00662670 /* ARCore.bundle */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -712,6 +721,13 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
+		A057A685172479CF00662670 /* ARCore.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ARCore.bundle;
+			remoteRef = A057A684172479CF00662670 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 		A09A92D517232A59000D9AF7 /* libGPUImage.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -740,6 +756,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A057A686172479CF00662670 /* ARCore.bundle in Resources */,
 				A0DDF4541643694B00BB9C82 /* Default-568h@2x.png in Resources */,
 				A0DDF4551643694B00BB9C82 /* Default.png in Resources */,
 				A0DDF4561643694B00BB9C82 /* Default@2x.png in Resources */,
